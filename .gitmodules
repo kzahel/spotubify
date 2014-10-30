@@ -1,3 +1,6 @@
 [submodule "js/web-server-chrome"]
 	path = js/web-server-chrome
 	url = git@github.com:kzahel/web-server-chrome
+[submodule "components/paper-elements"]
+	path = components/paper-elements
+	url = https://github.com/Polymer/paper-elements.git

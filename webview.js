@@ -20,7 +20,8 @@ function onYouTubeIframeAPIReady() {
         width: 300,
         height: 300,
         videoId: 'M7lc1UVf-VE',
-        playerVars: {'autoplay':1},
+//        videoId: "OOgpT5rEKIU", // alanis "thank you"
+//        playerVars: {'autoplay':false},
         events: {
             'onReady': onPlayerReady,
             'onPlaybackQualityChange': onPlayerPlaybackQualityChange,

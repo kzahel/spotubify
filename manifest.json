@@ -27,15 +27,14 @@
         "notifications"
     ],
     "icons": { 
-        "16": "flvico-16.png",
-        "19": "flvico-19.png",
-        "32": "flvico-32.png",
-        "38": "flvico-38.png",
-        "48": "flvico-48.png",
-        "64": "flvico-64.png",
-        "96": "flvico-96.png",
-        "128": "flvico-128.png",
-        "256": "flvico-256.png",
-        "512": "flvico-512.png"
+        "16": "img/ico-spotubify-16.png",
+        "19": "img/ico-spotubify-19.png",
+        "32": "img/ico-spotubify-32.png",
+        "38": "img/ico-spotubify-38.png",
+        "48": "img/ico-spotubify-48.png",
+        "64": "img/ico-spotubify-64.png",
+        "96": "img/ico-spotubify-96.png",
+        "128": "img/ico-spotubify-128.png",
+        "256": "img/ico-spotubify-256.png"
     }
 }
