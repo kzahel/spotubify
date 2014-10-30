@@ -1,0 +1,21 @@
+{
+  "name": "spotubify",
+  "main": "background.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kzahel/spotubify",
+  "authors": [
+    "Kyle Graehl <kgraehl@gmail.com>"
+  ],
+  "license": "-",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "core-elements": "Polymer/core-elements#~0.4.2"
+  }
+}
