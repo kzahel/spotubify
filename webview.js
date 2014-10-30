@@ -14,6 +14,7 @@ function onPlayerStateChange() {
 }
 
 function onYouTubeIframeAPIReady() {
+    console.log('youtube iframe api ready')
     var player;
     player = new YT.Player('player', {
         width: 300,
