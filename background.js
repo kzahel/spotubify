@@ -18,8 +18,8 @@ chrome.app.window.onClosed.addListener(function(evt) {
 chrome.app.runtime.onLaunched.addListener(function(launchData) {
     var iurl = 'index.html'
     var opts = {
-        id:'index',
-        alwaysOnTop: true
+        id:'index'
+//        alwaysOnTop: true
     }
     chrome.app.window.create(iurl,
                              opts,

@@ -112,7 +112,10 @@ function onload() {
         console.log('just did oauth flow',data)
 
     }
-    document.getElementById('login').addEventListener('click',do_oauth_flow.bind(this,oauth_flow_done))
+    var login = document.getElementById('login')
+    if (login) {
+        login.addEventListener('click',do_oauth_flow.bind(this,oauth_flow_done))
+    }
 }
 
 function SpotifyAPI(auth) {

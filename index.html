@@ -1,13 +1,65 @@
 <html>
 <head>
-<link rel="import" href="components/paper-elements/paper-elements.html">
+<script src="bower_components/platform/platform.js"></script>
+<link rel="import" href="bower_components/core-elements/core-elements.html">
+
+
+<link rel="import" 
+  href="../../bower_components/core-toolbar/core-toolbar.html">
+<link rel="import" 
+  href="../../bower_components/core-header-panel/core-header-panel.html">
+<link rel="import" 
+  href="../../components/core-icons/core-icons.html">
+<link rel="import" 
+  href="../../components/paper-icon-button/paper-icon-button.html">
+
 <script src="index.js"></script>
+
+<link rel="import" href="elements/my-title.html"></link>
+
 </head>
-<body>
-Spotubify!
+
+<style>
+body {
+  font-family: sans-serif;
+}
+core-header-panel {
+  background: white;
+}
+core-toolbar {
+  background-color: #03A9F4;
+}
+p {
+  margin: 20px;
+  padding: 80px 20px;
+  border-radius: 20px;
+  background-color: #eee;
+}
+</style>
+
+<body fullbleed vertical layout unresolved>
+  <core-header-panel flex>
+    <core-toolbar id="mainheader">
+      <paper-icon-button id="navicon" 
+        icon="arrow-back"></paper-icon-button>
+      <span flex>Title</span>
+      <paper-icon-button id="searchbutton" 
+        icon="search"></paper-icon-button>
+    </core-toolbar>
+    <p>Sample content.</p>
+    <p>Sample content.</p>
+  </core-header-panel>
+</body>
+
+
+
+
+<!--body>
+
+<my-title></my-title>
 
 <p></p>
-<!--webview  width="420" height="315" src="http://www.youtube.com/embed/XGSy3_Czz8k?autoplay=1&enablejsapi=1"></webview-->
+
 
 <webview style="border:1px solid green; width:350px; height:350px" src="http://play.spotubify.com:8543/webview.html"></webview>
 
@@ -16,5 +68,9 @@ Spotubify!
 <div style="display:none" id="spinner"><marquee>waiting for authorization...</marquee></div>
 
 
-</body>
+
+
+</body-->
+
+
 </html>
